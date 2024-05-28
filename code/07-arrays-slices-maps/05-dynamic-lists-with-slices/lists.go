@@ -7,7 +7,7 @@ func main() {
 	fmt.Println(prices[0:1])
 	prices[1] = 9.99
 
-	prices = append(prices, 5.99)
+	prices = append(prices, 5.99, 30.99, 42.39)
 	prices = prices[1:]
 	fmt.Println(prices)
 }
